@@ -6,3 +6,54 @@ RESET
   padding: 0%;
   box-sizing: border-box;
 }
+
+/*
+COMMON
+*/
+header {
+  background-color: #06131f;
+  height: 70px;
+  width: 100%;
+}
+
+main {
+  background-color: #1d2d3c;
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/*
+UTILITY
+*/
+.container {
+  margin: 0 auto;
+  text-align: center;
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+
+.card {
+  width: calc(100% / 3);
+  background-color: #112030;
+  padding: 20px;
+}
+
+.card img {
+  width: 250px;
+  height: 250px;
+}
+
+.card h2,
+h3,
+p {
+  color: white;
+  padding: 5px;
+}

@@ -11,7 +11,16 @@
   <body>
     <div id="app">
       <header></header>
-      <main></main>
+      <main>
+        <div class="container">
+          <div class="card" v-for="disco in dischi">
+            <img :src="disco.img" :alt="disco.name" />
+            <h2>{{ disco.name }}</h2>
+            <p>{{ disco.autore }}</p>
+            <p>{{ disco.anno }}</p>
+          </div>
+        </div>
+      </main>
     </div>
 
     <!-- VUE JS -->
